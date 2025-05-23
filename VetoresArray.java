@@ -19,4 +19,4 @@ qual for,podendo ser float, int, String e etc.
     ...
 
   Mas se eu nunca posso aumentar o tamanho do vetor então tenho um problema,se ao longo da execução do meu programa eu receber mais uma entrada do usuário, ou um valor dinamico que vem do 
-  banco de dados ou vem de um arquivo do sistema do usuário que não sei quantos elementos vão vir, então precisamos usra os ArrayLists mais conhecios como Listas.
+  banco de dados ou vem de um arquivo do sistema do usuário que não sei quantos elementos vão vir, então precisamos usra os ArrayLists mais conhecios como Listas.*/
