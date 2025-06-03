@@ -16,7 +16,7 @@ public class ExSix{
         a = scanner.nextDouble();
         System.out.println("Digite o valor de B: ");    
         b = scanner.nextDouble();
-        System.out.println("Digite o valor de A:");
+        System.out.println("Digite o valor de C:");
         c = scanner.nextDouble();
         triangulo = a * c / 2.0;
 		circulo = 3.14159 * c * c;
