@@ -21,8 +21,8 @@ public class Main {
         y.B = sc.nextDouble();
         y.C = sc.nextDouble();
 
-            double p = (x.A + x.B + x.C) / 2;
-        double AreaTrianguloX = Math.sqrt(p * (p - A) * (p - B ) * (p - C));
+        double p = (x.A + x.B + x.C) / 2;
+        double AreaTrianguloX = Math.sqrt(p * (p - x.A) * (p - x.B ) * (p - x.C));
 
         p = (y.D + y.E + y.F) / 2;
         double AreaTrianguloY = Math.sqrt(p * (p - D) * (p - E ) * (p - F));
