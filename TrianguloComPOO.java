@@ -25,7 +25,7 @@ public class Main {
         double AreaTrianguloX = Math.sqrt(p * (p - x.A) * (p - x.B ) * (p - x.C));
 
         p = (y.D + y.E + y.F) / 2;
-        double AreaTrianguloY = Math.sqrt(p * (p - D) * (p - E ) * (p - F));
+        double AreaTrianguloY = Math.sqrt(p * (p - y.D) * (p - y.E ) * (p - y.F));
 
         System.out.printf("Área do triângulo X: %.4f\n", areaX);
         System.out.printf("Área do triângulo Y: %.4f\n", areaY);
