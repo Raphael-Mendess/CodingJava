@@ -11,5 +11,7 @@ public class ExFour{
     double horasTrabalhadas = scanner.nextDouble();
     double salario = horasTrabalhadas * 10;
     System.out.printf("O salário do funcionário de número %d corresponde a %.2f ",funcionario, salario);
+
+    scanner.close();    
     }
 }
