@@ -36,8 +36,9 @@ public class Funcoes2 {
 
    public static void showResult(int value){
     System.out.println("higher:" + value);
-   } 
-}    
+   }
+}  
+
 
 
 
