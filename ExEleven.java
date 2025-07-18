@@ -11,5 +11,7 @@ public class ExEleven {
             soma = soma + x;
         }
         System.out.printf("O valor total dos números que você digitou corresponde a %d%n", soma);
+
+        lerVariavel.close();
     }
 }
