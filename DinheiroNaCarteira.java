@@ -13,11 +13,13 @@ public class DinheiroNaCarteira{
             for (int i = 0; i <=50000; i++){
                System.out.println(i);
             }
-        }else if(numero ==2){
+                
+            }else if(numero ==2){
             for (int i = 0;i <= 100000;i++){
                 System.out.println(i);
             } 
         }
+        
         if(numero == 1){
         System.out.println("Parabéns, agora você tem 50.000 mil na conta");    
         }else if(numero ==2){
