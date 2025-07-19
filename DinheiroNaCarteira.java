@@ -20,12 +20,13 @@ public class DinheiroNaCarteira{
             } 
         }
         
+        
         if(numero == 1){
         System.out.println("Parabéns, agora você tem 50.000 mil na conta");    
         }else if(numero ==2){
           System.out.println("Parabéns, agora você tem 100.000 mil na conta");  
         }
-
-        
     }
+
+    ler.close();
 }
