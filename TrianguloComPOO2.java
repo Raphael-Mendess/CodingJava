@@ -6,6 +6,7 @@ public class TrianguloComPOO2 {
   public static void main(String[] args) {
       
   Locale.setDefault(Locale.US);
+    
   Scanner LerVariavel = new Scanner (System.in);
   
   Triangle x, y;
@@ -25,8 +26,8 @@ public class TrianguloComPOO2 {
   double calculoDeX = x.calcularArea();
   double calculoDeY = y.calcularArea();
 
-    System.out.printf("Triangle X area: %.4f%n", calculoDeX);
-    System.out.printf("Triangle Y area: %.4f%n", calculoDeY);
+  System.out.printf("Triangle X area: %.4f%n", calculoDeX);
+  System.out.printf("Triangle Y area: %.4f%n", calculoDeY);
 
 
   if (calculoDeX > calculoDeY){
@@ -35,7 +36,6 @@ public class TrianguloComPOO2 {
   else{
     System.out.println("Larger Area: Y");
   }
-  
 
 LerVariavel.close();  
   }  
