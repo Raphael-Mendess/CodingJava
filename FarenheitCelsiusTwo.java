@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class FarenheitCelsiusTwo {
 
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
+        
         Locale.setDefault(Locale.US);
+        
         char resposta;
+        
         do {
             System.out.println("Digite a temperatura em Celsius: ");
             double C = scanner.nextDouble();
@@ -16,6 +20,7 @@ public class FarenheitCelsiusTwo {
             System.out.print("Deseja repetir (s/n) ? ");
             resposta = scanner.next().charAt(0);
         } while (resposta != 'n');
+        
         scanner.close();
     }
 }
