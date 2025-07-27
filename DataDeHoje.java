@@ -9,6 +9,7 @@ public class DataDeHoje{
         System.out.println(relogio.toString());
 
         boolean bool = true;
+        
         if(bool){
            System.out.println("Verdadeiro");
         }else{
