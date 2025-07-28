@@ -8,19 +8,25 @@ public class Product {
 
     public double totalValueInStock(){
         return price * quantity;
-
     }
     
     public void addProducts(int quantity){
         this.quantity += quantity;
     }
 
-
     public void removeProducts(int quantity){
         this.quantity -= quantity;
     }
 
-    public String toString(){
-        return name;
-    }
+  
+public String toString() {
+    return name 
+        + ", $ " 
+        + String.format("%.2f", price)
+        + ", " 
+        + quantity 
+        + " units, Total: $ " 
+        + String.format("%.2f", totalValueInStock());
+        }
 }
+//Aqui estão os atributos e os métodos da minha classe Product;
