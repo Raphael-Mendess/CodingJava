@@ -6,18 +6,18 @@ public class ExThree{
 
         System.out.println("Digite o valor A");
         Scanner scanner = new Scanner(System.in);        
-        double A = scanner.nextDouble(); 
+        double a = scanner.nextDouble(); 
 
         System.out.println("Digite o valor B");
-        double B = scanner.nextDouble();
+        double b = scanner.nextDouble();
 
         System.out.println("Digite o valor C");
-        double C = scanner.nextDouble();
+        double c = scanner.nextDouble();
 
         System.out.println("Digite um valor D");
-        double D = scanner.nextDouble();
+        double d = scanner.nextDouble();
 
-        double diferenca = A * B - C * D;
+        double diferenca = a * b - c * d;
 
         System.out.println("A diferença dos valores que você digitou corresponde a " + diferenca);
 
