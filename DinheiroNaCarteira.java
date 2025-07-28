@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class DinheiroNaCarteira{
     public static void main(String[]args){
+        
     Scanner ler = new Scanner(System.in);
         
     System.out.println("Digite 1 para contar de 0 até 50.000 mil");
