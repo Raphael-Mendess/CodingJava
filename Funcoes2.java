@@ -9,9 +9,9 @@ public class Funcoes2 {
 
         System.out.println("Digite três números");
 
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
-        int C = scanner.nextInt();
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
 
         int higher = max(A, B, C);
 
