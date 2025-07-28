@@ -6,23 +6,23 @@ public class TriangulosSemPOO{
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner (System.in);
 
-        double  A, B, C, D, E, F;   
+        double  a,b,c,d,e,f;   
 
         System.out.println("Enter the measures of triangle X");
-        A = scanner.nextDouble();
-        B = scanner.nextDouble();
-        C = scanner.nextDouble();
+        a = scanner.nextDouble();
+        b = scanner.nextDouble();
+        c = scanner.nextDouble();
 
         System.out.println("Enter the measures of triangle Y");
-        D = scanner.nextDouble();
-        E = scanner.nextDouble();
-        F = scanner.nextDouble();
+        d = scanner.nextDouble();
+        e = scanner.nextDouble();
+        f = scanner.nextDouble();
 
-        double p = (A + B + C) / 2;
-        double AreaTrianguloX = Math.sqrt(p * (p - A) * (p - B ) * (p - C));
+        double p = (a + b + c) / 2;
+        double AreaTrianguloX = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
         p = (D + E + F) / 2;
-        double AreaTrianguloY = Math.sqrt(p * (p - D) * (p - E ) * (p - F));
+        double AreaTrianguloY = Math.sqrt(p * (p - d) * (p - e) * (p - f));
 
         System.out.printf("Triangle X área: %.4f%n", AreaTrianguloX);
         System.out.printf("Triangle Y área: %.4f%n", AreaTrianguloY);
