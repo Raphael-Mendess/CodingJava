@@ -12,20 +12,20 @@ public class Main {
         Triangle y = new Triangle();
 
         System.out.println("Digite os lados do triângulo X:");
-        x.A = sc.nextDouble();
-        x.B = sc.nextDouble();
-        x.C = sc.nextDouble();
+        x.a = sc.nextDouble();
+        x.b = sc.nextDouble();
+        x.c = sc.nextDouble();
 
         System.out.println("Digite os lados do triângulo Y:");
-        y.A = sc.nextDouble();
-        y.B = sc.nextDouble();
-        y.C = sc.nextDouble();
+        y.a = sc.nextDouble();
+        y.b = sc.nextDouble();
+        y.c = sc.nextDouble();
 
-        double p = (x.A + x.B + x.C) / 2;
-        double AreaTrianguloX = Math.sqrt(p * (p - x.A) * (p - x.B ) * (p - x.C));
+        double p = (x.a + x.b + x.c) / 2;
+        double AreaTrianguloX = Math.sqrt(p * (p - x.a) * (p - x.b ) * (p - x.c));
 
         p = (y.D + y.E + y.F) / 2;
-        double AreaTrianguloY = Math.sqrt(p * (p - y.D) * (p - y.E ) * (p - y.F));
+        double AreaTrianguloY = Math.sqrt(p * (p - y.d) * (p - y.e) * (p - y.f));
 
         System.out.printf("Área do triângulo X: %.4f\n", areaX);
         System.out.printf("Área do triângulo Y: %.4f\n", areaY);
