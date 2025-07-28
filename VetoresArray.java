@@ -5,6 +5,7 @@ public class VetoresArray{
         System.out.println(colecaodeinteiros[0]);
     }
 }
+
 /* Tanto no Java como em outras linguagens de programação,um Vetor conhecido também como Array é uma estrutura de dados que a gente 
 utiliza para armazenar uma coleção de dados do mesmo tipo, posso usar se eu for querer agrupar uma coleção de números inteiros por exemplo,podemos armazenar dados do mesmo tipo seja ele 
 qual for,podendo ser float, int, String e etc.
@@ -19,4 +20,4 @@ qual for,podendo ser float, int, String e etc.
     ...
 
   Mas se eu nunca posso aumentar o tamanho do vetor então tenho um problema,se ao longo da execução do meu programa eu receber mais uma entrada do usuário, ou um valor dinamico que vem do 
-  banco de dados ou vem de um arquivo do sistema do usuário que não sei quantos elementos vão vir, então precisamos usra os ArrayLists mais conhecios como Listas.
+  banco de dados ou vem de um arquivo do sistema do usuário que não sei quantos elementos vão vir, então precisamos usra os ArrayLists mais conhecios como Listas.*/
