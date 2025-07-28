@@ -25,8 +25,20 @@ public class Program {
        System.out.print("Quantity in Stock:");
        product.quantity = lerVar.nextInt();
        
+       System.out.println(); 
+       System.out.println("Product Data:" + product);
 
-       System.out.println(product.toString());
+       System.out.println();
+       System.out.println("Enter the numbers of productcs to be added in Stock:");
+       int quantity = lerVar.nextInt();
+       product.addProducts(quantity);
+
+       System.out.println();
+       System.out.println("Update Data" + product);
+       
+       System.out.println();
+       System.out.print("Enter the numbers of products to be removed from stock");
+       quantity = lerVar.nextInt();
        
 
        System.out.println(product.name + ", " + product.price + ", " + product.quantity); 
@@ -34,4 +46,5 @@ public class Program {
        lerVar.close();
     }
 }
+
 
