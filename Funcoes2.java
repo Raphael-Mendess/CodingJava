@@ -13,7 +13,7 @@ public class Funcoes2 {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
 
-        int higher = max(A, B, C);
+        int higher = max(a, b, c);
 
         showResult(higher);
 
