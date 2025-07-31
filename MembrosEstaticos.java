@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class MembrosEstaticos {
 
     public static final double PI = 3.14159; //Isso é uma constante e não variável, então adicionamos final e declaramos o nome da constante tudo em maiusculos, constantes não mudam valor 
+    
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
@@ -18,6 +19,7 @@ public class MembrosEstaticos {
 
         System.out.printf("Circumference %.2f%n", c);
         System.out.printf("Volume %.2f%n",v);
+        System.out,printf("PI %.2f%n", PI)
 
         sc.close();
     }
