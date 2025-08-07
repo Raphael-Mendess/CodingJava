@@ -9,7 +9,7 @@ public class Program {
        Locale.setDefault(Locale.US); 
        Scanner lerVar = new Scanner(System.in);
        
-       Product product = new Product();
+       Product productObject = new Product();
         
        System.out.println("Enter product data: ");
 
