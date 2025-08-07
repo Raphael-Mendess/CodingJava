@@ -26,7 +26,7 @@ public class Program {
        System.out.println("Product Data:" + product);
 
        System.out.println();
-       System.out.println("Enter the numbers of productcs to be added in Stock:");
+       System.out.println("Enter the numbers of products to be added in Stock:");
        int quantity = lerVar.nextInt();
        product.addProducts(quantity);
 
